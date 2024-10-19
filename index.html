@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="user.css">
+
+      <title>Responsive portfolio website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== NAV ====================-->
+      <nav class="nav">
+        <ul class="nav__list">
+            <li>
+                <a href="#home" title="Home" class="nav__link">
+                    <i class="ri-home-line"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#projects" title="Projects" class="nav__link">
+                    <i class="ri-user-3-fill"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#services" title="Services" class="nav__link">
+                    <i class="ri-global-line"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#experince" title="Experience" class="nav__link">
+                    <i class="ri-keyboard-line"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#contact" title="Contact" class="nav__link">
+                    <i class="ri-send-plane-2-line"></i>
+                </a>
+            </li>
+        </ul>
+         
+      </nav>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <!--===== PERFIL =====-->
+                <div class="perfil">
+                    <div class="nama">
+                        Hello i'm <br>Muhammad Asyraf <br>Dzacky
+                    </div>
+                    <img src="IMG_4924.PNG" alt="" class="perfil__img">
+
+                    <div class="perfil__data">
+                        <!--h3 class="perfil__name">Hello i'm <b>Muhammad Asyraf Dzacky</b></h3-->
+                    <div class="perfil__buttons">
+                        <a href="mailto:muhammaddzacky14@gmail.com" class="button" id="projects">Hire me</a>
+
+                    </div>
+
+                    </div>
+                </div>
+
+               <!--===== INFO =====-->
+                <div class="info">
+                    <div class="info__data">
+                        <div class="info__circle">
+                            <h1 class="info__name">About me</h1>
+                        </div>
+                    </div>
+                    <div class="info__image">
+                        <img src="IMG_4934.PNG" alt="" class="info__img">
+                    </div>
+                    <p class="info__descripstion" id="services">
+                        Hello Guys, you can call me Jack. I am an Information Technology student at the University of North Sumatra (USU) who lives in Medan. Apart from studying the world of technology, I am also a musician who loves playing music. I always try to balance my passions for technology and music, and I believe that creativity in both fields mutually supports my development both academically and personally. Apart from that, I also really like things related to business
+                    </p>
+
+                    <a href="#" download target="_blank" class="button button__black">
+                        Download CV
+                    </a>
+                </div>
+
+               <!--===== ABOUT =====-->
+                <div class="about">
+                    <h3 class="about__name">
+                        Jack - <b>Student - TI & Musician</b>
+                    </h3>
+
+                    <p class="about__description" id="experince">
+                        Located in Indonesia, Medan City, i have severeal years of experience in design and design,
+                        carrying out severeal successful project.
+                    </p>
+
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/muhammad-asyraf-dzacky-666182315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="about__link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    
+                        <a href="https://github.com/Asyraf-c/Website-Jacky" target="_blank" class="about__link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    
+                        <a href="https://open.spotify.com/track/4kweTzrBhccshQUhnsdy7M?si=4kJskRiwTFettavHQ20A7A" target="_blank" class="about__link">
+                            <i class="ri-spotify-fill"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/asyrafdzc/profilecard/?igsh=MW4xOW4xbWR0eWdsYQ==" target="_blank" class="about__link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    
+                    </div>
+
+                        </p>
+                        <a href="#contact" class="button">Contact me<a>
+                </div>
+
+               <!--===== SKILLS =====-->
+               <div class="skills">
+                <h2 class="skills__title">Skills</h2>
+
+                <div class="skills__items">
+                    <img src="skills-figma.svg" alt="Figma" class="skills__item">
+                    <img src="skills-html.svg" alt="HTML" class="skills__item">
+                    <img src="skills-javascript.svg" alt="JavaScript" class="skills__item">
+                    <img src="skills-photoshop.svg" alt="Photoshop" class="skills__item">
+                    
+                </div>
+                <p class="skills__description">
+                    Visit the projects section to see the 
+                    work done with these web technologies and music.
+                </p>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <input type="text" required class="contact__input" placeholder="Names" name="user_name">
+                        <input type="email" required class="contact__input" placeholder="Email" name="user_email">
+                    </div>
+                    <textarea name="user_message" id="user_message" class="contact__input contact__area" placeholder="Message"></textarea>
+                    <button type="submit" class="button contact__button">Send Message</button>
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+                <br><br>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="usr.js"></script>
+   </body>
+</html>
